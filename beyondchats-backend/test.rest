@@ -1,0 +1,9 @@
+GET http://localhost:4000/api/articles
+###
+POST http://localhost:4000/api/articles
+{
+  "title": "Example",
+  "author": "Author",
+  "publishedAt": "2023-12-05",
+  "url": "https://beyondchats.com/blogs/example"
+}
